@@ -12,6 +12,8 @@
 #define NUM_READERS 5
 #define NUM_WRITERS 5
 
+extern serial_t* gs;
+
 int main(int argc, char *argv[])
 {
 	// Initialize vars
